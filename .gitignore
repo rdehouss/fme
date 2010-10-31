@@ -1,5 +1,5 @@
 configure
-Makefile.in
+/Makefile.in
 depcomp
 config.guess
 config.sub
@@ -13,3 +13,4 @@ config.status
 Makefile
 .cproject
 .project
+*.o
