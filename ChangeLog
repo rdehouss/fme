@@ -1,0 +1,94 @@
+# -*- coding: utf-8 -*-
+
+2010-10-31 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.1.3 released
+	* Bug fix for gcc-4.5
+	* Fix notice with fgets
+
+2008-08-25 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.1.2 released
+	* Bug fix for gcc-4.3.1
+
+2008-07-27 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.1.1 released
+	* Bug fix : No end for empty submenu
+
+2008-04-24 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.1.0 released
+	* La librairie "Boost" n'est plus nécessaire avec les dernières versions
+	de Glib ( >= 2.14 )
+	* Ajout de l'auto-complétion pour la commande ainsi que la recherche
+	d'exécutable
+	* Ajout de la recherche de l'icône et des paths de recherche dans les
+	préférences
+	* Bug fix : --debug ne fonctionne plus, affiche la version de FME
+
+2008-01-11 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.0.3 released
+	* Correction du bug FS#12 car réouvert
+	* Correction du bug FS#15
+
+2007-12-05 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.0.2 released
+	* Correction du bug FS#14
+
+2007-11-28 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.0.1 released
+	* Correction des bugs FS#12 et FS#13
+
+2007-11-14 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* Correction du bug FS#13
+
+2007-07-02 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 1.0.0 released
+	* Correction des bugs #10 et #11
+	* Messages ds la StatusBar
+	* Correction du fichier fme_check-ver_fluxbox pour Gentoo
+	* Remplacement de l'iconview par un file chooser dialog pour la
+	sélection de l'icône
+	* Correction de nombreux bugs
+
+2006-08-06 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 0.9.9.2 released
+	* Correction d'un bug :
+		- fme_check-version_fluxbox non inclus ds l'achive
+
+2006-07-31 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 0.9.9.1 released
+	* Ajout du menu contextuelle sur la TreeView
+	* Ajout du support du tag encoding et de l'enregistrement
+	en UTF-8 uniquement pour les versions de Fluxbox compatible
+	* Correction d'un bug :
+		- default argument for parameter of type 'int&' has type 'int'
+
+2006-04-04 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* FME 0.9.9 released, last before 1.0.0
+	* Nouvelle interface
+	* Fonctions Annuler/Refaire pour toutes les fonctions
+	* Possibilité de faire un nouveau menu avec fgm
+	* Touche DEL en raccourcis pour la suppression
+	* Choix de l'icône parmis des répertoires choisis
+	* Choix de l'icône avec une IconView qui permet de visualiser
+	directement les icônes.
+	* Choix de la demande de confirmation ou non pour la suppression.
+	* Support des langues anglais et français
+
+2006-03-06 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* Cleanning code begin
+
+2006-01-16 Raphaël Dehousse <rdehouss@gmail.com>
+
+	* Start of the new developement release

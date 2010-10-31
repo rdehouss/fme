@@ -1,0 +1,26 @@
+#!/bin/sh
+
+ver=`fluxbox -v`
+
+ver=$(echo $ver | awk '{ print $2 }')
+rel=$(echo $ver | awk -F rc '{ print $2 }')
+rel=$(echo $rel | sed -e 's/\([0-9]\{1\}\)[a-zA-Z0-9-]*/\1/g')
+ver=$(echo $ver | awk -F rc '{ print $1 }' | sed -e 's/\.//g' | sed -e 's/\(^.\{1\}\)\(.*\)/\1.\2/' )
+
+if [ $rel ]; then
+	rel=$(echo "scale=5; 1/($rel*10000)" | bc)
+	final=$(echo "scale=5; $ver-$rel" | bc)
+else
+	final=$ver
+fi
+
+#echo "Version : $ver"
+#echo "Rel : $rel"
+#echo "Final : $final"
+
+if [ `echo ".99995 <= $final" | bc` -ne "0" ]
+then
+	echo 1
+else
+	echo 0
+fi

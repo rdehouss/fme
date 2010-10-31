@@ -1,0 +1,5 @@
+config.hpp.in
+stamp-h1
+config.hpp
+Makefile.in
+Makefile

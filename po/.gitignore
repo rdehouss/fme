@@ -1,0 +1,6 @@
+*.gmo
+stamp-po
+Makefile.in
+POTFILES
+Makefile
+remove-potcdate.sed

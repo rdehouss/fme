@@ -1,0 +1,20 @@
+Description
+-----------
+
+Fluxbox Menu Editor is a menu editor for the Window Manager Fluxbox written in C++ with the libraries Gtkmm, Glibmm, libglademm and gettext for internationalization.
+
+Its user-friendly interface will help you to edit, delete, move (Drag and Drop) a row, a submenu, etc very easily.
+For each row, you'll be able to choose a icon thanks to an icon selector.
+
+Software under GPL License.
+
+Read Changelog for changes
+
+Dependencies are :
+* gcc
+* gtkmm
+* glibmm
+* libglademm
+* libsigc+
+
+For all these dependencies, you must install headers (-dev)

@@ -1,0 +1,9 @@
+# -*- encoding: utf-8 -*-
+
++ icon search thanks to command
+- migrate to cmake
+- write documentation
+- icon search for all the menu
+- merge select icon and search icon in a new menu and add search auto for all items
++ list of bin path
++ icon pre-selected if already set
